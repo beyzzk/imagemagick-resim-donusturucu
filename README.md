@@ -1,0 +1,103 @@
+# Fotoğraf Dönüştürme ve İşleme Aracı
+
+Bu proje, Linux işletim sistemleri için geliştirilmiş,
+komut satırı (TUI) ve grafik arayüz (GUI) destekli bir fotoğraf işleme uygulamasıdır.
+
+Proje pardus ortamında geliştirilmiştir ve burada çalıştırılabilir.
+
+Proje, **Bash Script**, **ImageMagick**, **YAD** ve **whiptail** kullanılarak geliştirilmiştir.
+
+---
+
+## 🚀 Özellikler
+
+Uygulamada aşağıdaki fotoğraf işlemlerini yapabilirsiniz:
+
+- 📁 Format dönüştürme (JPG, JPEG, PNG, WEBP)
+- 📐 Boyutlandırma (Resize)
+- 🖨️ Çözünürlük (DPI) değiştirme
+- 🔄 Döndürme (Rotate)
+- ✂️ Kırpma (Crop)
+
+Her işlem, kullanıcıdan gerekli parametreleri alır ve
+orijinal dosyayı bozmadan **aynı klasörde yeni bir dosya oluşturur**.
+
+---
+
+## 🖥️ Arayüzler
+
+### GUI (Grafik Arayüz)
+- **YAD** kullanılarak geliştirilmiştir.
+- Kullanıcıyı yönlendiren pencereler bulunur.
+- Görsel kullanıcılar için uygundur.
+
+### TUI (Metin Tabanlı Arayüz)
+- **whiptail** ile oluşturulmuştur.
+- Terminal odaklı kullanıcılar için uygundur.
+- Menü tabanlı ve etkileşimlidir.
+
+---
+
+## 🛠️ Kullanılan Teknolojiler
+
+- Bash Script
+- ImageMagick
+- YAD
+- whiptail
+- Linux (Pardus)
+
+---
+
+## 🔧 Sistem Gereksinimleri
+
+Bu uygulamanın çalışabilmesi için aşağıdaki gereksinimlerin sağlanması gerekir:
+
+### İşletim Sistemi
+- Linux (Pardus önerilir)
+- Debian / Ubuntu tabanlı dağıtımlar
+
+### Gerekli Paketler
+- **bash** (varsayılan olarak yüklü)
+- **imagemagick** (resim işleme işlemleri için)
+- **yad** (grafik arayüz için)
+- **whiptail** (metin tabanlı arayüz için)
+- **git** (projeyi GitHub’dan indirmek için)
+
+
+## 📂 Dosya Yapısı
+
+resim-donusturucu/
+├── gui.sh
+├── gui_crop.sh
+├── gui_resize.sh
+├── gui_rotate.sh
+├── gui_resolution.sh
+├── tui.sh
+├── fonksiyonlar.sh
+└── README.md
+
+## 📥 GitHub’dan Kurulum ve Çalıştırma
+
+Aşağıdaki adımlar, projeyi GitHub üzerinden indirip çalıştırmak için izlenmelidir.
+
+### 1️⃣ Depoyu Klonla
+
+Terminali açarak aşağıdaki komutu çalıştırın:
+
+```bash
+git clone https://github.com/beyzzk/repo-adi.git
+
+Klasöre girin:
+cd resim-donusturucu
+
+Gerekli paketleri kurun:
+sudo apt update
+sudo apt install imagemagick yad whiptail git -y
+
+Çalıştırma izinlerini verin:
+chmod +x gui.sh tui.sh
+
+Uygulamayı başlatın:
+./gui.sh
+./tui.sh
+
