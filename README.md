@@ -9,6 +9,9 @@ Proje, **Bash Script**, **ImageMagick**, **YAD** ve **whiptail** kullanılarak g
 
 ---
 
+## Proje tanıtım videosu
+[Aşağıdaki linkten projeyi nasıl kuracağınızı öğrenebilir ve yapılabilen işlemleri inceleyebilirsiniz.](youtube.com/watch?v=141pJsZnWBs)  
+
 ## 🚀 Özellikler
 
 Uygulamada aşağıdaki fotoğraf işlemlerini yapabilirsiniz:
