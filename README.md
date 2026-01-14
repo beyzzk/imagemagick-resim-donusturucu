@@ -3,7 +3,7 @@
 Bu proje, Linux işletim sistemleri için geliştirilmiş,
 komut satırı (TUI) ve grafik arayüz (GUI) destekli bir fotoğraf işleme uygulamasıdır.
 
-Proje pardus ortamında geliştirilmiştir ve burada çalıştırılabilir.
+Proje Pardus ortamında geliştirilmiştir ve burada çalıştırılabilir.
 
 Proje, **Bash Script**, **ImageMagick**, **YAD** ve **whiptail** kullanılarak geliştirilmiştir.
 
@@ -20,7 +20,7 @@ Uygulamada aşağıdaki fotoğraf işlemlerini yapabilirsiniz:
 - ✂️ Kırpma (Crop)
 
 Her işlem, kullanıcıdan gerekli parametreleri alır ve
-orijinal dosyayı bozmadan **aynı klasörde yeni bir dosya oluşturur**.
+orijinal dosyayı bozmadan **aynı klasörde işlemin uygulandığı yeni bir dosya oluşturur**.
 
 ---
 
@@ -32,7 +32,7 @@ orijinal dosyayı bozmadan **aynı klasörde yeni bir dosya oluşturur**.
 - Görsel kullanıcılar için uygundur.
 
 ### TUI (Metin Tabanlı Arayüz)
-- **whiptail** ile oluşturulmuştur.
+- **Whiptail** ile oluşturulmuştur.
 - Terminal odaklı kullanıcılar için uygundur.
 - Menü tabanlı ve etkileşimlidir.
 
@@ -43,7 +43,7 @@ orijinal dosyayı bozmadan **aynı klasörde yeni bir dosya oluşturur**.
 - Bash Script
 - ImageMagick
 - YAD
-- whiptail
+- Whiptail
 - Linux (Pardus)
 
 ---
@@ -57,7 +57,7 @@ Bu uygulamanın çalışabilmesi için aşağıdaki gereksinimlerin sağlanması
 - Debian / Ubuntu tabanlı dağıtımlar
 
 ### Gerekli Paketler
-- **bash** (varsayılan olarak yüklü)
+- **bash**
 - **imagemagick** (resim işleme işlemleri için)
 - **yad** (grafik arayüz için)
 - **whiptail** (metin tabanlı arayüz için)
@@ -66,38 +66,39 @@ Bu uygulamanın çalışabilmesi için aşağıdaki gereksinimlerin sağlanması
 
 ## 📂 Dosya Yapısı
 
-resim-donusturucu/
-├── gui.sh
-├── gui_crop.sh
-├── gui_resize.sh
-├── gui_rotate.sh
-├── gui_resolution.sh
-├── tui.sh
-├── fonksiyonlar.sh
-└── README.md
+resim-donusturucu/  
+├── gui.sh  
+├── gui_crop.sh  
+├── gui_resize.sh  
+├── gui_rotate.sh  
+├── gui_resolution.sh  
+├── tui.sh  
+├── fonksiyonlar.sh  
+└── README.md  
 
 ## 📥 GitHub’dan Kurulum ve Çalıştırma
 
-Aşağıdaki adımlar, projeyi GitHub üzerinden indirip çalıştırmak için izlenmelidir.
+Aşağıdaki adımlar, projeyi GitHub üzerinden indirip çalıştırmak için uygulanması gereken adımlardır.
 
-### 1️⃣ Depoyu Klonla
+### 1)Depoyu Klonlayın
 
 Terminali açarak aşağıdaki komutu çalıştırın:
 
 ```bash
-git clone https://github.com/beyzzk/repo-adi.git
+git clone https://github.com/beyzzk/imagemagick-resim-donusturucu.git
+```
 
-Klasöre girin:
-cd resim-donusturucu
+### 2)Klasöre girin
+```cd resim-donusturucu```
 
-Gerekli paketleri kurun:
-sudo apt update
+### 3)Gerekli paketleri kurun
+```sudo apt update
 sudo apt install imagemagick yad whiptail git -y
+```
+### 4)Çalıştırma izinlerini verin
+```chmod +x gui.sh tui.sh```
 
-Çalıştırma izinlerini verin:
-chmod +x gui.sh tui.sh
-
-Uygulamayı başlatın:
-./gui.sh
+### 5)Uygulamayı başlatın
+```./gui.sh
 ./tui.sh
-
+```
