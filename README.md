@@ -63,6 +63,7 @@ Bu uygulamanın çalışabilmesi için aşağıdaki gereksinimlerin sağlanması
 - **whiptail** (metin tabanlı arayüz için)
 - **git** (projeyi GitHub’dan indirmek için)
 
+---
 
 ## 📂 Dosya Yapısı
 
@@ -76,11 +77,13 @@ resim-donusturucu/
 ├── fonksiyonlar.sh  
 └── README.md  
 
+---
+
 ## 📥 GitHub’dan Kurulum ve Çalıştırma
 
 Aşağıdaki adımlar, projeyi GitHub üzerinden indirip çalıştırmak için uygulanması gereken adımlardır.
 
-### 1)Depoyu Klonlayın
+### 1) Depoyu Klonlayın
 
 Terminali açarak aşağıdaki komutu çalıştırın:
 
@@ -88,23 +91,46 @@ Terminali açarak aşağıdaki komutu çalıştırın:
 git clone https://github.com/beyzzk/imagemagick-resim-donusturucu.git
 ```
 
-### 2)Klasöre girin
+### 2) Klasöre girin
 ```
 cd resim-donusturucu
 ```
 
-### 3)Gerekli paketleri kurun
+### 3) Gerekli paketleri kurun
 ```
 sudo apt update
 sudo apt install imagemagick yad whiptail git -y
 ```
-### 4)Çalıştırma izinlerini verin
+### 4) Çalıştırma izinlerini verin
 ```
 chmod +x gui.sh tui.sh
 ```
 
-### 5)Uygulamayı başlatın
+### 5) Uygulamayı başlatın
 ```
 ./gui.sh
 ./tui.sh
 ```
+---
+
+## Uygulama Ekran görüntüleri
+![Ana Menü](screenshots/anaekran.png)  
+
+![Fotoğraf formatı dönüştürme işlemleri]
+![Kaynak format seçme](screenshots/formatd1.png)  
+![Hedef format seçme](screenshots/formatd2.png)  
+![Resim seçme](screenshots/formatd3.png)  
+![Tamamlandı ekranı](screenshots/formatd4.png)  
+---
+![Boyutlandırma ekranı](screenshots/boyut.png)  
+---
+![Çözünürlük değiştirme ekranı](screenshots/cozunurluk.png)  
+---
+![Döndürme (rotate) ekranı](screenshots/dondurme.png)  
+---
+![Kırpma ekranı](screenshots/kırpma.png)  
+
+
+
+
+
