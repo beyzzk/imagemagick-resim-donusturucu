@@ -10,7 +10,7 @@ Proje, **Bash Script**, **ImageMagick**, **YAD** ve **whiptail** kullanılarak g
 ---
 
 ## Proje tanıtım videosu
-[Bu linkten projeyi nasıl kuracağınızı öğrenebilir ve yapılabilen işlemleri inceleyebilirsiniz.](youtube.com/watch?v=141pJsZnWBs)  
+[Bu linkten projeyi nasıl kuracağınızı öğrenebilir ve yapılabilen işlemleri inceleyebilirsiniz.](https://www.youtube.com/watch?v=141pJsZnWBs)  
 
 ## 🚀 Özellikler
 
