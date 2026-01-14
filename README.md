@@ -116,7 +116,7 @@ chmod +x gui.sh tui.sh
 ## Uygulama Ekran görüntüleri  
 Ana Menü  
 ![Ana Menü](screenshots/anaekran.png)  
----
+
 Fotoğraf formatı dönüştürme işlemleri  
 
 Kaynak format seçme  
@@ -130,16 +130,16 @@ Resim seçme
 
 Tamamlandı ekranı  
 ![Tamamlandı](screenshots/formatd4.png)  
----
+
 Boyutlandırma ekranı  
 ![Boyutlandırma](screenshots/boyut.png)  
----
+
 Çözünürlük değiştirme ekranı  
 ![Çözünürlük](screenshots/cozunurluk.png)  
----
+
 Döndürme (rotate) ekranı  
 ![Döndürme](screenshots/dondurme.png)  
----
+
 Kırpma ekranı  
 ![Kırpma](screenshots/kırpma.png)  
 
