@@ -114,6 +114,7 @@ chmod +x gui.sh tui.sh
 ---
 
 ## Uygulama Ekran görüntüleri  
+### Gui ekranları  
 Ana Menü  
 ![Ana Menü](screenshots/anaekran.png)  
 
@@ -143,6 +144,14 @@ Döndürme (rotate) ekranı
 Kırpma ekranı  
 ![Kırpma](screenshots/kırpma.png)  
 
+### Tui ekranları  
+Tui Ana Menü  
+![Ana Menü](screenshots/tuianaekran.png)  
+
+Tui resim dönüştürme  
+![Resim dönüştürme](screenshots/tui-donusturme.png)  
+
+![Resim dönüştürme seçim](screenshots/tui-donusturme1.png)  
 
 
 
