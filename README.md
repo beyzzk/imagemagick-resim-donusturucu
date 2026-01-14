@@ -114,21 +114,34 @@ chmod +x gui.sh tui.sh
 ---
 
 ## Uygulama Ekran görüntüleri
-![Ana Menü](screenshots/anaekran.png)  
+Ana Menü(screenshots/anaekran.png)  
+---
 
-![Fotoğraf formatı dönüştürme işlemleri]
-![Kaynak format seçme](screenshots/formatd1.png)  
-![Hedef format seçme](screenshots/formatd2.png)  
-![Resim seçme](screenshots/formatd3.png)  
-![Tamamlandı ekranı](screenshots/formatd4.png)  
+Fotoğraf formatı dönüştürme işlemleri  
+Kaynak format seçme  
+(screenshots/formatd1.png)  
+Hedef format seçme  
+(screenshots/formatd2.png)  
+Resim seçme  
+(screenshots/formatd3.png)  
+Tamamlandı ekranı  
+(screenshots/formatd4.png)  
 ---
-![Boyutlandırma ekranı](screenshots/boyut.png)  
+
+Boyutlandırma ekranı  
+(screenshots/boyut.png)  
 ---
-![Çözünürlük değiştirme ekranı](screenshots/cozunurluk.png)  
+
+Çözünürlük değiştirme ekranı  
+(screenshots/cozunurluk.png)  
 ---
-![Döndürme (rotate) ekranı](screenshots/dondurme.png)  
+
+Döndürme (rotate) ekranı  
+(screenshots/dondurme.png)  
 ---
-![Kırpma ekranı](screenshots/kırpma.png)  
+
+Kırpma ekranı  
+(screenshots/kırpma.png)  
 
 
 
