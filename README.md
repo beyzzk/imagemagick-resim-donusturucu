@@ -93,7 +93,7 @@ git clone https://github.com/beyzzk/imagemagick-resim-donusturucu.git
 
 ### 2) Klasöre girin
 ```
-cd resim-donusturucu
+cd imagemagick-resim-donusturucu
 ```
 
 ### 3) Gerekli paketleri kurun
