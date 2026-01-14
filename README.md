@@ -89,16 +89,19 @@ git clone https://github.com/beyzzk/imagemagick-resim-donusturucu.git
 ```
 
 ### 2)Klasöre girin
-```cd resim-donusturucu```
+```cd resim-donusturucu
+```
 
 ### 3)Gerekli paketleri kurun
 ```sudo apt update
 sudo apt install imagemagick yad whiptail git -y
 ```
 ### 4)Çalıştırma izinlerini verin
-```chmod +x gui.sh tui.sh```
+```chmod +x gui.sh tui.sh
+```
 
 ### 5)Uygulamayı başlatın
-```./gui.sh
+```
+./gui.sh
 ./tui.sh
 ```
